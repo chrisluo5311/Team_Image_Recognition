@@ -1,3 +1,5 @@
+<h1>Brain Tumor Detection with CNN</h1>
+
 <h2> 🔧 Technologies & Tools </h2>
  <div>
  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
