@@ -53,7 +53,7 @@
 |  kaggle資料集  | Brain MRI Images for Brain Tumor Detection  | 
 |  資料集解釋  | 總共253個檔案，其中no有98個檔案，Yes有155個檔案    | 
 |  資料鏈接  | [Brain MRI](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection?select=yes)   | 
-|  參考寫法  | [brain-tumor-detector-92](https://www.kaggle.com/code/aissaasasd/brain-tumor-detector-92)   | 
+
 
 ---
 
