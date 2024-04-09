@@ -15,27 +15,27 @@
  
  ---
  
- <h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbsp專案簡介及目標: </h2>
+ <h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbspProject Introduction and Objectives: </h2>
  
-#### 這個專案的主要目的是建立一個卷積神經網絡(CNN)模型,根據MRI掃描判斷受測者是否患有腫瘤。本專案使用了CNN和DNN對這個二元問題進行建模與訓練。最後將以準確度作為評估模型效能的指標
+#### The goal of this project is to develop a Convolutional Neural Network (CNN) model to classify MRI scans as either containing a tumor or not. The model utilizes both CNN and Deep Neural Network (DNN) for binary classification, with accuracy serving as the primary metric to assess its performance.
 
-資料集說明:
+Data set Description:
 
-本專案的影像使用的是Kaggle資料集[Brain MRI Images for Brain Tumor Detection](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fnavoneel%2Fbrain-mri-images-for-brain-tumor-detection%3Fselect%3Dyes)。
+The images in this project use the Kaggle data set:[Brain MRI Images for Brain Tumor Detection](https://colab.research.google.com/corgiredirector?site=https%3A%2F%2Fwww.kaggle.com%2Fdatasets%2Fnavoneel%2Fbrain-mri-images-for-brain-tumor-detection%3Fselect%3Dyes)。
 
-總共分兩類:
+Two categories in total::
 
-- NO - 沒有腦腫瘤
-- Yes - 有腦腫瘤
+- NO - no brain tumor
+- Yes - has brain tumor
 
-註: 該資料集作者並未說明腦腫瘤影像的出處
+Note: The author of this data set did not indicate the source of the brain tumor images.
 
 ### View the project code : [BrainMRI](https://github.com/chrisluo5311/Team_Image_Recognition/blob/master/BrainMRI.ipynb)
  
  ---
 
-### 安裝軟體對應版本:
-|  軟體  |  版本  |  
+### Software version:
+|  software  |  version  |  
 |:------:|:--------:|
 |  Python  | `3.11.5`   | 
 |  Matplotlib  | `3.7.2`   | 
@@ -46,18 +46,18 @@
 
  ---
 
- <h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbsp參考鏈接: </h2>
+ <h2 ><img src="https://img.icons8.com/office/30/000000/training.png"/> &nbspReference: </h2>
 
-|  標題  |  說明  |  
+|  Topic  |  Explanation  |  
 |:------:|:--------:|
-|  kaggle資料集  | Brain MRI Images for Brain Tumor Detection  | 
-|  資料集解釋  | 總共253個檔案，其中no有98個檔案，Yes有155個檔案    | 
-|  資料鏈接  | [Brain MRI](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection?select=yes)   | 
+|  kaggle data set  | Brain MRI Images for Brain Tumor Detection  | 
+|  Data set explanation  | 253 files in total, including 98 files for no and 155 files for Yes.    | 
+|  Reference  | [Brain MRI](https://www.kaggle.com/datasets/navoneel/brain-mri-images-for-brain-tumor-detection?select=yes)   | 
 
 
 ---
 
-<h2><img width="32" height="32" src="https://img.icons8.com/nolan/64/summary-list.png" alt="summary-list"/> &nbsp總結: </h2>
+<h2><img width="32" height="32" src="https://img.icons8.com/nolan/64/summary-list.png" alt="summary-list"/> &nbspSummary: </h2>
 
-這個專案結合了CNN模型分類問題（用於預測被測主體是否患有腦腫瘤）和計算機視覺問題（用於自動化從MRI掃描中裁剪腦部的過程）。最終的準確度遠高於50%的基準線（隨機猜測）。然而，這個準確度可以透過增加訓練圖片的數量或通過調整模型超參數來進一步提高。
+This project combines a CNN model classification problem (used to predict whether a subject has a brain tumor) and a computer vision problem (used to automate the process of cropping brains from MRI scans). The final accuracy is much higher than the baseline of 50% (random guessing). However, this accuracy can be further improved by increasing the number of training images or by adjusting model hyperparameters.
 
